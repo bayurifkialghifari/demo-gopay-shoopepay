@@ -66,7 +66,7 @@ sequenceDiagram
         Job->>DB: Perbarui status atau tandai expired sesuai deadline
     end
 
-    Note over Page,DB: Polling berhenti pada success atau expired; timeout jaringan bukan status pembayaran
+    Note over Page,DB: Polling berhenti pada success atau expired. Timeout jaringan bukan status pembayaran
 ```
 
 ### 1. Generate QRIS
